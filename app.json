@@ -1,0 +1,36 @@
+{
+    "name": "scpr",
+    "description": "hello to niekl",
+    "keywords": [
+        "cmd"
+    ],
+    "repository": "https://github.com/wajirr4/g",
+    "website": "https://github.com/wajirr4/g",
+    "success_url": "https://t.me/XVipRobot",
+    "env": {
+        "TOKEN": {
+            "description": "5791754081",
+            "required": "True",
+            "value": "AAERAAxGMkfAPTfQGQ3dkghR_G-Aj8WSQTM"
+        },
+        "MODE": {
+            "description": "prod",
+            "required": "True"
+        },
+        "CHAT_ID_FORWARD": {
+            "description": "-1001761930779",
+            "required": "True"
+        },
+        "HEROKU_APP_NAME": {
+            "description": "\"\"",
+            "required": "True"
+        }
+    },
+    "stack": "heroku-20",
+    "formation": {
+        "worker": {
+            "quantity": 1,
+            "size": "free"
+        }
+    }
+}
