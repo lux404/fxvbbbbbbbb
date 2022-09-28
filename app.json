@@ -4,21 +4,21 @@
     "keywords": [
         "cmd"
     ],
-    "repository": "https://github.com/wajirr4/g",
-    "website": "https://github.com/wajirr4/g",
-    "success_url": "https://t.me/XVipRobot",
+    "repository": "https://github.com/idkhhh/g",
+    "website": "https://github.com/idkhhh/g",
+    "success_url": "https://t.me/southcodexbot",
     "env": {
         "TOKEN": {
-            "description": "5791754081",
+            "description": "5546425371",
             "required": "True",
-            "value": "AAERAAxGMkfAPTfQGQ3dkghR_G-Aj8WSQTM"
+            "value": "AAFo98_XxFYaFrmJBMtC0arPU4MeZ8lrW6g"
         },
         "MODE": {
             "description": "prod",
             "required": "True"
         },
         "CHAT_ID_FORWARD": {
-            "description": "-1001761930779",
+            "description": "-1001641093356",
             "required": "True"
         },
         "HEROKU_APP_NAME": {
@@ -26,7 +26,7 @@
             "required": "True"
         }
     },
-    "stack": "heroku-20",
+    "stack": "heroku-22",
     "formation": {
         "worker": {
             "quantity": 1,
